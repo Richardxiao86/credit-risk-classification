@@ -1,0 +1,17 @@
+Credit Risk Analysis Report
+#Provide an overview that explains the purpose of this analysis. (5 points)
+Answer:The model uses the CSV file from lending_data to define features x and dependant variables y. The model tries to define X_train, X_test, y_train, y_test to predict the accuracy through Logistics Regression model. 
+
+#Using a bulleted list, describe the accuracy, precision, and recall scores of the machine learning model. (5 points)
+Answer:1 Accuracy:0.95
+2               precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00     18765
+           1       0.85      0.91      0.88       619
+
+    accuracy                           0.99     19384
+   macro avg       0.92      0.95      0.94     19384
+weighted avg       0.99      0.99      0.99     19384
+
+#Summarise the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning. (10 points)
+Answer:I recommend the company to use this machine learning model. The model can predict the precision of healthy loan(0) with perfect accuracy while the prediction for unhealthy loan (1) also reaches to 0.85. It is a well-trained model for the business of the company considering the features including loan_sizinterest_rate,borrower_income,debt_to_income,num_of_accounts,derogatory_marks and total_debt.It contains multidimensional features that make the model more convincing. It is a very practical model based on the existing data sources.
